@@ -65,7 +65,7 @@ var TypeWriter = (function(window){
 		{
 			options.callback();
 		}
-    }
+	}
 
 	TypeWriter.prototype.setColor = function(color)
 	{
@@ -106,7 +106,7 @@ var TypeWriter = (function(window){
 			x = Math.floor(x);
 		}
 		return x;
-    }
+	}
 
 	return TypeWriter;
 
