@@ -1,4 +1,4 @@
-var TypeWriter = (function(window){
+(function(window){
 
 	var ctx,
 		options = {
@@ -108,6 +108,9 @@ var TypeWriter = (function(window){
 		return x;
 	}
 
-	return TypeWriter;
+	if (typeof window.TypeWriter === 'undefined')
+	{
+	window.TypeWriter = TypeWriter;
+	}
 
 }(window));
