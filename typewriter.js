@@ -2,17 +2,17 @@ var TypeWriter = (function(window){
 
 	var ctx,
 		options = {
-            start: 0,
-            left: 0,
-            top: 100,
-            space: 35,
-            shadow: true,
-            shadowX: 2,
-            shadowY: 2,
-            textColor: 'rgba(0,0,0,1.0)',
-            font: '80px Ubuntu Mono, monospace',
-            callback: function(){}
-        };
+			start: 0,
+			left: 0,
+			top: 100,
+			space: 35,
+			shadow: true,
+			shadowX: 2,
+			shadowY: 2,
+			textColor: 'rgba(0,0,0,1.0)',
+			font: '80px Ubuntu Mono, monospace',
+			callback: function(){}
+		};
 
 	var TypeWriter = function TypeWriter(canvas, defaults)
 	{
@@ -77,11 +77,6 @@ var TypeWriter = (function(window){
 
 	TypeWriter.prototype.setFont = function(font)
 	{
-		if (typeof font === 'undefined')
-		{
-			font = options.font;
-		}
-		options.font = font;
 		if (typeof ctx !== 'undefined')
 		{
 			ctx.font = font;
@@ -104,13 +99,13 @@ var TypeWriter = (function(window){
 	}
 
 	function random(min, max, round)
-    {
-        var x = Math.random() * (max-min) + min;
-        if (round)
-        {
-          x = Math.floor(x);
-        }
-        return x;
+	{
+		var x = Math.random() * (max-min) + min;
+		if (round)
+		{
+			x = Math.floor(x);
+		}
+		return x;
     }
 
 	return TypeWriter;
