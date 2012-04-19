@@ -1,3 +1,8 @@
+// Typewriter.js
+// A typewriter simulator on canvas
+// Author: Josh McCarthy
+// licensed under the MIT license
+
 (function(window){
 
 	var ctx,
