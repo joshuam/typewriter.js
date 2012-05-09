@@ -1,4 +1,8 @@
-body {font-family: "john-doe", serif;}
+body {margin: 0; font-family: "john-doe", serif; background-color: rgb(165,233,243);}
+.center {margin: 0 auto;}
+.right {float: right;}
+#main {padding-top: 10px;}
+#content {width: 529px; padding: 25px 25px; height: 128px; border: 1px solid black; background: url(../images/paper.png) no-repeat;}
 a {color: black; text-decoration: none;}
 a:hover {color: rgb(205,0,0); text-decoration: none;}
 #text {display: block; width: 100%;} 
