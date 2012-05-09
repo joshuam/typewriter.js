@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    tw = new TypeWriter('logo');
+    var tw = new TypeWriter('logo');
 
     function typeHeader()
     {
