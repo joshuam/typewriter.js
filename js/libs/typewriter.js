@@ -1,5 +1,5 @@
 // Typewriter.js
-// A typewriter simulator on canvas
+// A simple typewriter simulator
 // Author: Josh McCarthy
 // licensed under the MIT license
 
