@@ -14,14 +14,14 @@
 
 	TypeWriter.prototype.type = function(word, callback)
 	{
-        var arr = [],
-        i = 0,
-        length;
-        this.setCallback(callback);
-        for (i, length = word.length; i < length; i++)
-        {
-            arr.push(word.charAt(i));
-        }
+	        var arr = [],
+	        	i = 0,
+	        	length;
+	        this.setCallback(callback);
+	        for (i, length = word.length; i < length; i++)
+	        {
+	            arr.push(word.charAt(i));
+	        }
 		typeWord(this, word, 0);
 	};
 
@@ -65,7 +65,7 @@
 
 	if (typeof window.TypeWriter === 'undefined')
 	{
-	window.TypeWriter = TypeWriter;
+		window.TypeWriter = TypeWriter;
 	}
 
 }(window));
